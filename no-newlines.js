@@ -10,10 +10,10 @@
 (function(mod) {
   if (typeof exports === 'object' && typeof module === 'object') {
     // CommonJS
-    mod(require('codemirror'))
+    mod(require('codemirror-minified'))
   } else if (typeof define === 'function' && define.amd) {
     // AMD
-    define(['codemirror'], mod)
+    define(['codemirror-minified'], mod)
   } else {
     // Plain browser
     mod(CodeMirror)
